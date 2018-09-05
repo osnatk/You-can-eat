@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d5aabc2779d94575886eaa3f5a45e1ab" Name="Diagram1">
+        <EntityTypeShape EntityType="EditPlacesModel.Client" Width="1.5" PointX="4.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditPlacesModel.Happening" Width="1.5" PointX="3.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditPlacesModel.Manager" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditPlacesModel.Seat" Width="1.5" PointX="6.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditPlacesModel.sysdiagrams" Width="1.5" PointX="9.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EditPlacesModel.TypePlaceHappening" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="EditPlacesModel.FK__Seat__clientId__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="EditPlacesModel.FK__Happening__happe__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="EditPlacesModel.FK__Happening__manag__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="EditPlacesModel.FK__Seat__happeningI__286302EC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

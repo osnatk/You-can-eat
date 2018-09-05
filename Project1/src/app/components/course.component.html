@@ -1,0 +1,48 @@
+﻿{{titel}}
+<select [(ngModel)]="selectCourses"  (change)="onChangeGroup(selectCourses)">select
+               <option *ngFor="let item of GroupList" value="{{item.Id}}" >{{item.Instructor}} {{item.Name}}</option>
+           </select>
+
+<div class="DetailsCourse">
+    <div class="panel-heading">
+        <button id="btnRemove" class="btn btn-danger" (click)="RemoveCourse(item)">
+            <span class="glyphicon glyphicon-trash"></span><!--Remove-->
+        </button>
+        <button [disabled]="IsChange==false" id="btnSave" class="btn btn-default" (click)="SaveCourse(item,selectCourses)">
+            <span class="glyphicon glyphicon-cloud-upload"></span><!--Save-->
+        </button>
+        <button id="btnEdit" class="btn btn-primary" (click)="EditCourse()">
+            <span class="glyphicon glyphicon-pencil"></span><!--Edit-->
+        </button>
+    </div>
+    <div class="cls_data">
+        <span [style.display]="flag==true ? 'block' : 'none'">{{namecourse}}</span><!--course's name-->
+        <div *ngIf="flag==false">
+            <input list="datalistcourses" (change)="onChange($event.target)" >
+            <datalist id="datalistcourses">            
+                <option *ngFor="let item of CourseList" data-id="{{item.Id}}" value="{{item.Name}} - {{item.Instructor}}" ></option>
+            </datalist>
+        </div>
+    </div>
+</div>
+<style>
+    .DetailsCourse {
+        font-size: x-large;
+        border-style: double;
+        border-color: gray;
+    }
+
+    div {
+        display: table-cell;
+        padding:0;
+    }
+    button {
+        width:1.5vw;
+        height:1.5vw;
+        align-content:center;
+    }
+    .glyphicon{
+        width:0.1vw;
+        height:0.1vw;
+    }
+</style>

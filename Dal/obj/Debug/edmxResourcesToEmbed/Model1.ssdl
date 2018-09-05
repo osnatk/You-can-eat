@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EditPlacesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="clientId" />
+    </Key>
+    <Property Name="clientId" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="clientName" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="clientMail" Type="varchar" MaxLength="30" />
+    <Property Name="clientNumCards" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Happening">
+    <Key>
+      <PropertyRef Name="happeningId" />
+    </Key>
+    <Property Name="happeningId" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="managerId" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="happeningName" Type="varchar" MaxLength="50" />
+    <Property Name="happeningAddress" Type="varchar" MaxLength="50" />
+    <Property Name="happeningDescription" Type="varchar" MaxLength="50" />
+    <Property Name="happeningDate" Type="date" />
+    <Property Name="happeningStartDate" Type="date" />
+    <Property Name="happeningEndDate" Type="date" />
+    <Property Name="happeningTypeId" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="happeningPriceType" Type="varchar" MaxLength="50" />
+    <Property Name="happeningPrice" Type="int" />
+    <Property Name="happeningNumRows" Type="int" />
+    <Property Name="happeningNumColumns" Type="int" />
+    <Property Name="happeningPassword" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Manager">
+    <Key>
+      <PropertyRef Name="managerId" />
+    </Key>
+    <Property Name="managerId" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="managerName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="managerNameUser" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="managerPassword" Type="int" />
+    <Property Name="managerAddress" Type="varchar" MaxLength="50" />
+    <Property Name="managerMail" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Seat">
+    <Key>
+      <PropertyRef Name="seatId" />
+    </Key>
+    <Property Name="seatId" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="happeningId" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="seatIsFree" Type="bit" />
+    <Property Name="seatPrice" Type="int" />
+    <Property Name="seatRow" Type="int" />
+    <Property Name="seatColumn" Type="int" />
+    <Property Name="clientId" Type="numeric" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TypePlaceHappening">
+    <Key>
+      <PropertyRef Name="placeId" />
+    </Key>
+    <Property Name="placeId" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PlaceName" Type="varchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Happening__happe__1FCDBCEB">
+    <End Role="TypePlaceHappening" Type="Self.TypePlaceHappening" Multiplicity="0..1" />
+    <End Role="Happening" Type="Self.Happening" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypePlaceHappening">
+        <PropertyRef Name="placeId" />
+      </Principal>
+      <Dependent Role="Happening">
+        <PropertyRef Name="happeningTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Happening__manag__1ED998B2">
+    <End Role="Manager" Type="Self.Manager" Multiplicity="0..1" />
+    <End Role="Happening" Type="Self.Happening" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manager">
+        <PropertyRef Name="managerId" />
+      </Principal>
+      <Dependent Role="Happening">
+        <PropertyRef Name="managerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Seat__clientId__29572725">
+    <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Seat" Type="Self.Seat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="clientId" />
+      </Principal>
+      <Dependent Role="Seat">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Seat__happeningI__286302EC">
+    <End Role="Happening" Type="Self.Happening" Multiplicity="0..1" />
+    <End Role="Seat" Type="Self.Seat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Happening">
+        <PropertyRef Name="happeningId" />
+      </Principal>
+      <Dependent Role="Seat">
+        <PropertyRef Name="happeningId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="EditPlacesModelStoreContainer">
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Happening" EntityType="Self.Happening" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Manager" EntityType="Self.Manager" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Seat" EntityType="Self.Seat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypePlaceHappening" EntityType="Self.TypePlaceHappening" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Happening__happe__1FCDBCEB" Association="Self.FK__Happening__happe__1FCDBCEB">
+      <End Role="TypePlaceHappening" EntitySet="TypePlaceHappening" />
+      <End Role="Happening" EntitySet="Happening" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Happening__manag__1ED998B2" Association="Self.FK__Happening__manag__1ED998B2">
+      <End Role="Manager" EntitySet="Manager" />
+      <End Role="Happening" EntitySet="Happening" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Seat__clientId__29572725" Association="Self.FK__Seat__clientId__29572725">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Seat" EntitySet="Seat" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Seat__happeningI__286302EC" Association="Self.FK__Seat__happeningI__286302EC">
+      <End Role="Happening" EntitySet="Happening" />
+      <End Role="Seat" EntitySet="Seat" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,13 @@
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\Schedule_Model.exe.config
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\Schedule_Model.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\Schedule_Model.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\EntityFramework.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\Nager.Date.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\Newtonsoft.Json.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\EntityFramework.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\bin\Debug\Newtonsoft.Json.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\obj\Debug\Schedule_Model.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\obj\Debug\Schedule_Model.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Model\obj\Debug\Schedule_Model.csprojResolveAssemblyReference.cache

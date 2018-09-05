@@ -1,0 +1,82 @@
+﻿@import '../../../styles/styles';
+
+.admin-modal ,.modal-dialog {
+    width: 428px;
+    max-width: 428px;
+    top: 100px;
+
+    .modal-content {
+        background-color: $att-white;
+        padding: 32px 32px 25px 32px;
+
+        @include csldn-global-round-borders(6px);
+
+        .modal-header{
+            padding: 0;
+            border: none;
+            position: relative;
+
+            @include csldn-flex-display();
+            @include csldn-flex-justify-content(flex-end);
+            @include csldn-flex-align-items(center);
+
+            .modal-title{
+                @include heading-3($gray-90);
+                @include csldn-flex-grow-shrink-basis(1, 0, auto);
+                @include csldn-align-self(center);
+            }
+
+            .close-popup {
+                position: absolute;
+                top:-32px;
+                right: -32px;
+                font-size: 48px;
+                color:$functional-backgroud-gray;
+            }
+            .close-button-container {
+                @include csldn-flex-display();
+                @include csldn-button-no-style($att-dark-gray);
+                position: absolute;
+                top:-32px;
+                right: -32px;
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+                margin: 5px 5px 0 0;
+                &:focus {
+                    outline: 1px solid $csldn-form-element-focus;
+                }
+
+                span {
+                    @include csldn-flex-display();
+                    font-size: 20px;
+                    width:20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        .modal-body{
+            padding: 0;
+            margin: 21px 0;
+        }
+
+        .modal-footer{
+            padding: 0;
+            border:none;
+            @include  csldn-flex-display();
+            @include  csldn-flex-justify-content(flex-end);
+            @include  csldn-flex-align-items(flex-end);
+
+            button {
+                &.csldn-primary-button, &.csldn-secondary-button {
+                    min-width: 120px;
+                    margin-left: 12px;
+                }
+            }
+        }
+
+
+    }
+}
+

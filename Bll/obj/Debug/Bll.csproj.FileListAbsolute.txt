@@ -1,0 +1,15 @@
+W:\scan\ScheduleMe\Bll\bin\Debug\Bll.dll
+W:\scan\ScheduleMe\Bll\bin\Debug\Bll.pdb
+W:\scan\ScheduleMe\Bll\bin\Debug\Dal.dll
+W:\scan\ScheduleMe\Bll\bin\Debug\Dal.pdb
+W:\scan\ScheduleMe\Bll\bin\Debug\EntityFramework.xml
+W:\scan\ScheduleMe\Bll\obj\Debug\Bll.csprojResolveAssemblyReference.cache
+W:\scan\ScheduleMe\Bll\obj\Debug\Bll.dll
+W:\scan\ScheduleMe\Bll\obj\Debug\Bll.pdb
+C:\Users\student\Desktop\ScheduleMe\Bll\bin\Debug\Bll.dll
+C:\Users\student\Desktop\ScheduleMe\Bll\bin\Debug\Bll.pdb
+C:\Users\student\Desktop\ScheduleMe\Bll\bin\Debug\Dal.dll
+C:\Users\student\Desktop\ScheduleMe\Bll\bin\Debug\Dal.pdb
+C:\Users\student\Desktop\ScheduleMe\Bll\obj\Debug\Bll.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\ScheduleMe\Bll\obj\Debug\Bll.dll
+C:\Users\student\Desktop\ScheduleMe\Bll\obj\Debug\Bll.pdb

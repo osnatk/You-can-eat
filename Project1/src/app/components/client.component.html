@@ -1,0 +1,23 @@
+﻿<div class="panel panel-default">
+    <div class="panel-heading">
+        <h1>{{title}}</h1>
+    </div>
+    <div class="panel-body">
+        <form #formHappening="ngForm" (ngSubmit)="LoginMap(formHappening)">
+            <label>Name Happaning: </label><input class="form-control" name="nameHappaning" type="text" [(ngModel)]="name" #nameHappaning="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!nameHappaning.valid">Happaning's name is a required file!!</div>
+
+            <label>Password Happaning: </label><input class="form-control" name="PasswordHappaning" type="text" [(ngModel)]="password" #passwordHappaning="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!passwordHappaning.valid">Happaning's Password is a required file!!</div>
+
+            <div class="col-lg-2">
+                <button class="btn btn-primary" [disabled]="!formHappening.valid" type="submit">
+                    <span class="glyphicon glyphicon-save"></span> Login
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+

@@ -1,0 +1,152 @@
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\obj\Debug\ScheduleMe.csprojResolveAssemblyReference.cache
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\csc.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\System.Collections.Immutable.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\vbc.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\VBCSCompiler.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\roslyn\VBCSCompiler.exe.config
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\ScheduleMe.dll.config
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\ScheduleMe.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\ScheduleMe.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\EntityFramework.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\EntityFramework.SqlServer.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Nager.Date.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Newtonsoft.Json.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Schedule_Bl.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Schedule_Dal.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Schedule_Model.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\System.Net.Http.Formatting.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\System.Web.Http.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\System.Web.Http.WebHost.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Schedule_Bl.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Schedule_Dal.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Schedule_Model.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\EntityFramework.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\EntityFramework.SqlServer.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\Newtonsoft.Json.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\System.Net.Http.Formatting.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\System.Web.Http.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\bin\System.Web.Http.WebHost.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\obj\Debug\ScheduleMe.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Project1\obj\Debug\ScheduleMe.pdb
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\csc.exe
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\Microsoft.CSharp.Core.targets
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\System.Collections.Immutable.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\System.Reflection.Metadata.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\vbc.exe
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\VBCSCompiler.exe
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\roslyn\VBCSCompiler.exe.config
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\ScheduleMe.dll.config
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\ScheduleMe.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\ScheduleMe.pdb
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\EntityFramework.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\EntityFramework.SqlServer.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Nager.Date.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Newtonsoft.Json.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Schedule_Bl.exe
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Schedule_Dal.exe
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Schedule_Model.exe
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\System.Net.Http.Formatting.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\System.Web.Http.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\System.Web.Http.WebHost.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Schedule_Bl.pdb
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Schedule_Dal.pdb
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Schedule_Model.pdb
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\EntityFramework.xml
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\EntityFramework.SqlServer.xml
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\Newtonsoft.Json.xml
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\System.Net.Http.Formatting.xml
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\System.Web.Http.xml
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\bin\System.Web.Http.WebHost.xml
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\obj\Debug\ScheduleMe.csprojResolveAssemblyReference.cache
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\obj\Debug\ScheduleMe.dll
+W:\הנדסת תוכנה\שנה ב\תלמידות תשעח\תהילה רוזנברג\פרויקט גמר סופייייייייייייייייי\ScheduleMe\Project1\obj\Debug\ScheduleMe.pdb
+W:\scan\ScheduleMe\Project1\obj\Debug\ScheduleMe.csprojResolveAssemblyReference.cache
+W:\scan\ScheduleMe\Project1\obj\Debug\ScheduleMe.dll
+W:\scan\ScheduleMe\Project1\obj\Debug\ScheduleMe.pdb
+W:\scan\ScheduleMe\Project1\bin\roslyn\csc.exe
+W:\scan\ScheduleMe\Project1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+W:\scan\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+W:\scan\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.dll
+W:\scan\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+W:\scan\ScheduleMe\Project1\bin\roslyn\Microsoft.CSharp.Core.targets
+W:\scan\ScheduleMe\Project1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+W:\scan\ScheduleMe\Project1\bin\roslyn\System.Collections.Immutable.dll
+W:\scan\ScheduleMe\Project1\bin\roslyn\System.Reflection.Metadata.dll
+W:\scan\ScheduleMe\Project1\bin\roslyn\vbc.exe
+W:\scan\ScheduleMe\Project1\bin\roslyn\VBCSCompiler.exe
+W:\scan\ScheduleMe\Project1\bin\roslyn\VBCSCompiler.exe.config
+W:\scan\ScheduleMe\Project1\bin\ScheduleMe.dll.config
+W:\scan\ScheduleMe\Project1\bin\ScheduleMe.dll
+W:\scan\ScheduleMe\Project1\bin\ScheduleMe.pdb
+W:\scan\ScheduleMe\Project1\bin\Bll.dll
+W:\scan\ScheduleMe\Project1\bin\EntityFramework.dll
+W:\scan\ScheduleMe\Project1\bin\EntityFramework.SqlServer.dll
+W:\scan\ScheduleMe\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+W:\scan\ScheduleMe\Project1\bin\Nager.Date.dll
+W:\scan\ScheduleMe\Project1\bin\Newtonsoft.Json.dll
+W:\scan\ScheduleMe\Project1\bin\System.Net.Http.Formatting.dll
+W:\scan\ScheduleMe\Project1\bin\System.Web.Http.dll
+W:\scan\ScheduleMe\Project1\bin\System.Web.Http.WebHost.dll
+W:\scan\ScheduleMe\Project1\bin\Dal.dll
+W:\scan\ScheduleMe\Project1\bin\Bll.pdb
+W:\scan\ScheduleMe\Project1\bin\EntityFramework.xml
+W:\scan\ScheduleMe\Project1\bin\EntityFramework.SqlServer.xml
+W:\scan\ScheduleMe\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+W:\scan\ScheduleMe\Project1\bin\Newtonsoft.Json.xml
+W:\scan\ScheduleMe\Project1\bin\System.Net.Http.Formatting.xml
+W:\scan\ScheduleMe\Project1\bin\System.Web.Http.xml
+W:\scan\ScheduleMe\Project1\bin\System.Web.Http.WebHost.xml
+W:\scan\ScheduleMe\Project1\bin\Dal.pdb
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\csc.exe
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\vbc.exe
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\VBCSCompiler.exe
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\ScheduleMe.dll.config
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\ScheduleMe.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\ScheduleMe.pdb
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Bll.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Dal.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\EntityFramework.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\EntityFramework.SqlServer.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Nager.Date.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Newtonsoft.Json.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\System.Net.Http.Formatting.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\System.Web.Http.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\System.Web.Http.WebHost.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Bll.pdb
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Dal.pdb
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\EntityFramework.xml
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\EntityFramework.SqlServer.xml
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\Newtonsoft.Json.xml
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\System.Net.Http.Formatting.xml
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\System.Web.Http.xml
+C:\Users\student\Desktop\ScheduleMe\Project1\bin\System.Web.Http.WebHost.xml
+C:\Users\student\Desktop\ScheduleMe\Project1\obj\Debug\ScheduleMe.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\ScheduleMe\Project1\obj\Debug\ScheduleMe.dll
+C:\Users\student\Desktop\ScheduleMe\Project1\obj\Debug\ScheduleMe.pdb

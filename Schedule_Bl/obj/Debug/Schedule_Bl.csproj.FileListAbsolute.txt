@@ -1,0 +1,13 @@
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\obj\Debug\Schedule_Bl.csprojResolveAssemblyReference.cache
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\Schedule_Bl.exe.config
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\Schedule_Bl.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\Schedule_Bl.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\Schedule_Dal.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\Schedule_Model.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\EntityFramework.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\Nager.Date.dll
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\Schedule_Dal.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\Schedule_Model.pdb
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\bin\Debug\EntityFramework.xml
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\obj\Debug\Schedule_Bl.exe
+D:\Temech project\KaanaProject\projectSchedule\ScheduleMe\Schedule_Bl\obj\Debug\Schedule_Bl.pdb

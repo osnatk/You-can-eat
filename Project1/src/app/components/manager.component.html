@@ -1,0 +1,44 @@
+﻿<div class="panel panel-default">
+    <div class="panel-heading">
+        <h1>{{title}}</h1>
+    </div>
+    <div class="panel-body">
+        <form #formNewManager="ngForm" (ngSubmit)="saveNewManger(formNewManager)">
+           
+             <label>Name: </label><input class="form-control" name="name" type="text" [(ngModel)]="name" #nameManager="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!nameManager.valid">Manager's name is a required file!!</div>
+           
+             <label>User Name: </label><input class="form-control" name="userName" type="text" required [(ngModel)]="UserName" #nameUserManager="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!nameUserManager.valid">Manager's name is a required file!!</div>
+          
+             <label>Address: </label><input class="form-control" name="address" type="text" [(ngModel)]="address" /><br />
+           
+             <label>Mail: </label><input class="form-control" name="mail" type="email" [(ngModel)]="mail" /><br />
+
+            <div class="col-lg-2">
+                <button class="btn btn-primary" [disabled]="!formNewManager.valid" type="submit">
+                    <span class="glyphicon glyphicon-save"></span> Save New Manager
+                </button>
+            </div>
+
+        </form>
+        </div>
+     
+       <button #exist class="btn btn-primary">exist </button>
+    <div>
+        <!--div [hidden]="!exist.click">-->
+        <form #formExistManager="ngForm">
+            <label>User Name: </label><input class="form-control" name="UserName" type="text" required [(ngModel)]="UserName" #UserNameExistManager="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!UserNameExistManager.valid">Manager's name is a required file!!</div>
+            <label>Password: </label><input class="form-control" name="password" type="text" required [(ngModel)]="Password" #passwordExistManager="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!passwordExistManager.valid">Manager's password is a required file!!</div>
+            <div class="col-lg-2">
+                <button class="btn btn-primary" (click)="saveNewManger()" [disabled]="!formNewManager.valid">
+                    <span class="glyphicon glyphicon-save"></span> Loggin
+                </button>
+            </div>
+        </form>
+        <!--</div>-->
+    </div>
+</div>
+

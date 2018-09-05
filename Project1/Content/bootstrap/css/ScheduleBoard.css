@@ -1,0 +1,48 @@
+﻿body {
+}
+
+#table_schedule {
+    width: 65%;
+    margin-right: 20vw;
+    margin-top: 4vh;
+}
+
+.btn_schedulboard {
+    background-color: #ede969;
+    color: #266587;
+    height: 3vh;
+    width: 5vw;
+    font-weight: bold;
+}
+.btn_schedulboardOnClick{
+    background-color: #266587;
+    color: white;
+    height: 3vh;
+    width: 5vw;
+    font-weight: bold;
+}
+#selectGroup {
+    border: 0.5px solid #266587;
+    width: 14vw;
+    height: 4vh;
+    font-weight: bold;
+    margin: 0.5vw;
+}
+
+#spnGroupName {
+    color: gray;
+    font-weight: bold;
+}
+
+#div-buttons {
+    margin-right: 20vw;
+    margin-top: 3vh;
+}
+
+#tr-Day{
+    color:#266587; 
+    font-weight:bold;
+}
+.dayOfMonth {
+    font-weight:normal;
+}

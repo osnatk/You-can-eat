@@ -1,0 +1,134 @@
+﻿body {
+    /*background-color:azure;*/
+}
+
+button {
+    margin-left:  3.5vw;
+    height: 7vw;
+    width: 7vw;
+    text-align: center;
+    background-color: #266587;
+    border-color: #266587;
+    border-radius: 0px;
+    border-style: none;
+    color: white;
+}
+
+    button span {
+        font-size: 1vw;
+        display: block;
+    }
+
+#schduleGroups {
+    margin-top: 7.5vw;
+}
+
+button img {
+    width: 4vw;
+    height: 4vw;
+}
+
+button1 {
+    height: 2vw;
+    width: 15vw;
+    background-color: #266587;
+}
+/*#Button1, #Button2, #Button3*/
+.btn_Manegment {
+    background-color: #266587;
+    width: 12vw;
+    height: 3.2vw;
+    margin-top: 0.7vw;
+    border-color: #ede969;
+    color: white;
+    font-family: inherit;
+    font-size: 1.22vw;
+}
+
+#manegmentButtons {
+    margin-top: 7vw;
+}
+
+h1 {
+    font-family: inherit;
+    color: #266587;
+    display: inline-block;
+    margin: 0.6vw;
+    margin-right: 7vw;
+}
+
+.rec {
+    height: 0.2vw;
+    width: 10vw;
+    background-color: #ede969;
+    display: inline-block;
+    margin-top: 4vw;
+}
+
+.btn_Add {
+    width: 36.5vw;
+}
+
+ul {
+    width: 1vw;
+    height: 2vw;
+}
+
+.btn_default {
+    background-color: #266587;
+}
+
+.btn_default2 {
+    background-color: white;
+    color: #266587;
+}
+
+.btn_default3 {
+    background-color: #ede969;
+    color: #266587;
+}
+
+.src_default {
+    content: url('../../../Content/Images/image_07_2.png');
+}
+
+src_default2 {
+    content: url('../../../Content/Images/image_12.png');
+}
+
+
+
+.course-details .editData {
+    display: grid;
+    position: relative;
+    left: 6vw;
+}
+
+    .course-details .editData input {
+        border: 1px #266587 solid;
+        height: 1.8vw;
+        width: 10vw;
+        margin-bottom: 1.3vw;
+        direction: rtl;
+    }
+
+.course-details button {
+    background-color: white;
+    display: inline-flex;
+    border: 1px #266587 solid;
+    width: 7vw;
+    height: 2.3vw;
+    padding: 0.3vw;
+    padding-left: 0.7vw
+}
+
+.course-details img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.course-details button b {
+    color: #266587;
+    font-size: 1vw;
+    margin-right: 1vw;
+}

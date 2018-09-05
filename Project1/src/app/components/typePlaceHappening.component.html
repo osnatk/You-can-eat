@@ -1,0 +1,57 @@
+﻿<div class="panel panel-default">
+    <div class="panel-heading">
+        <h1>{{title}}</h1>
+    </div>
+    <div class="panel-body">
+        <form name="formHappening" #formHappening="ngForm" (ngLoad)="getAllTypePlaces()" (ngSubmit)="saveHappeningDetails()">
+
+            <label>Name Happening: </label><input class="form-control" name="name" type="text" [(ngModel)]="volunteer.name" #nameHappening="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!nameHappening.valid">Happening's name is a required file!!</div>
+
+            <label>Address: </label><input class="form-control" name="address" type="text" [(ngModel)]="address" #addressHappening="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!addressHappening.valid">Happening's address is a required file!!</div>
+
+            <label>Description: </label><input class="form-control" name="Description" type="text" [(ngModel)]="Description" #Description="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!Description.valid">Happening's description is a required file!!</div>
+
+            <label>Date Happening: </label><input class="form-control" name="DateHappening" type="date" [(ngModel)]="Date" #DateHappening="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!DateHappening.valid">Happening's date is a required file!!</div>
+
+            <label>Date Start Happening:</label><input class="form-control" name="StartDate" type="date" [(ngModel)]="StartDate" #StartDate="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!StartDate.valid">Happening's StartDate is a required file!!</div>
+
+            <label>Date End Happening:</label><input class="form-control" name="EndDate" type="date" [(ngModel)]="EndDate" #EndDate="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!EndDate.valid">Happening's EndDate is a required file!!</div>
+
+            <label>Happening Place:</label><select class="form-control" name="HappeningPlace" type="date" [(ngModel)]="HappeningPlace" #HappeningPlace="ngModel">
+            <option *ngFor="let place of typePlaceHappening">{{place.PlaceName}}</option>              
+            </select>
+            <br />
+            <div class="alert alert-danger" *ngIf="!HappeningPlace.valid">Happening's EndDate is a required file!!</div>
+
+            <label>Type Price:</label><select class="form-control" name="TypePrice" type="text" [(ngModel)]="volunteer.TypePrice" #TypePrice="ngModel">
+                <option>קבוע</option>
+                <option>משתנה</option>
+            </select>
+            <!--<option *ngFor="let place of volunteers7">{{place.name}}</option>-->
+            <br />
+            <div class="alert alert-danger" *ngIf="!TypePrice.valid">Happening's TypePrice is a required file!!</div>
+
+            <label>Price:</label><input class="form-control" name="Price" type="number" [(ngModel)]="volunteer.Price" #Price="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!Price.valid">Happening's Price is a required file!!</div>
+
+            <label>Row number:</label><input class="form-control" name="RowNumber" type="number" [(ngModel)]="volunteer.RowNumber" #RowNumber="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!RowNumber.valid">Happening's RowNumber is a required file!!</div>
+
+            <label>Cloumn number:</label><input class="form-control" name="CloumnNumber" type="number" [(ngModel)]="volunteer.CloumnNumber" #CloumnNumber="ngModel" /><br />
+            <div class="alert alert-danger" *ngIf="!CloumnNumber.valid">Happening's CloumnNumber is a required file!!</div>
+
+            <div class="col-lg-2">
+                <button class="btn btn-primary" [disabled]="!formHappening.valid">
+                    <span class="glyphicon glyphicon-save"></span> Save
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
